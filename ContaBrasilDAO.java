@@ -1,6 +1,6 @@
 package AdaptadorHibernetSql;
 
-public interface ContaBrasilDAO {
+public interface ContaDAO {
 	
 	public void addPessoa(Pessoa pessoa);
 
