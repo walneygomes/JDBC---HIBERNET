@@ -1,6 +1,6 @@
 package AdaptadorHibernetSql;
 
-public class ContaDaoJDBC implements ContaBrasilDAO {
+public class ContaBrasilDaoJDBC implements ContaDAO {
 
 	Connection conn;
 
@@ -10,7 +10,7 @@ public class ContaDaoJDBC implements ContaBrasilDAO {
 		String url = "jdbc:postgresql://localhost:5432/Pessoas"; // Nome da
 																	// base de
 		// dados
-		String user = "postgres"; // nome do usu·rio do MySQL
+		String user = "postgres"; // nome do usu√°rio do MySQL
 		String password = "123"; // senha do MySQL
 
 		conn = DriverManager.getConnection(url, user, password);
